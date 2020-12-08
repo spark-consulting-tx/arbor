@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css","webpack://src/components/service-tile.css"],"names":[],"mappings":"AAAA,WACI,2BAA6B,CAC7B,iBACJ,CCAA,aACE,UACF","file":"main.7be2825a.chunk.css","sourcesContent":[".jumbotron {\n    padding: 2rem 1rem !important;\n    text-align: center;\n}",".serviceTitle {\n}\n\n.serviceDesc {\n  color: black;\n}\n\n"]}
