@@ -68,7 +68,7 @@ const AboutPage: React.FC<AboutProps> = ( props: AboutProps) =>  {
         <Row>
           <img
             className="d-block w-100"
-            style={{maxWidth: "580px", margin: "auto", marginTop: "20px"}}
+            style={{display: "block", maxWidth: "580px", width: "auto", height: "auto", margin: "auto", marginTop: "20px"}}
             src={"static/images/" + aboutConfig.thumbnail}
             alt={aboutConfig.title1}
           />
@@ -80,7 +80,7 @@ const AboutPage: React.FC<AboutProps> = ( props: AboutProps) =>  {
         <Row>
           <img
             className="d-block w-100"
-            style={{maxWidth: "580px", margin: "auto", marginBottom: "20px", marginTop: "20px"}}
+            style={{display: "block", maxWidth: "580px", maxHeight: "426px", width: "auto", height: "auto", margin: "auto", marginTop: "20px", marginBottom: "20px"}}
             src={"static/images/review1.png"}
             alt={aboutConfig.title1}
           />
@@ -88,7 +88,7 @@ const AboutPage: React.FC<AboutProps> = ( props: AboutProps) =>  {
         <Row>
           <img
             className="d-block w-100"
-            style={{maxWidth: "580px", margin: "auto", marginBottom: "20px", marginTop: "20px"}}
+            style={{display: "block", maxWidth: "580px", width: "auto", height: "auto", margin: "auto", marginTop: "20px"}}
             src={"static/images/" + aboutConfig.thumbnail}
             alt={aboutConfig.title1}
           />

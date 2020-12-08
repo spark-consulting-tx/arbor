@@ -96,6 +96,7 @@ const ServicePage: React.FC<ServiceProps> = ( props: ServiceProps) =>  {
         <Row>
           <img
             className="d-block w-100"
+            style={{display: "block", maxWidth: "580px", width: "auto", height: "auto", margin: "auto", marginTop: "20px"}}
             src={"static/images/" + serviceDetailsConfig.thumbnail}
             alt={serviceDetailsConfig.title1}
           />
