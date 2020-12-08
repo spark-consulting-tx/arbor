@@ -1,5 +1,6 @@
 {
   "name": "basic-ts",
+  "homepage": "http://spark-consulting-tx.github.io/arbor",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
