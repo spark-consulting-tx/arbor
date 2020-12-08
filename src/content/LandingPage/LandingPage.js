@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Carousel,
   Col,
@@ -11,6 +11,10 @@ import ServiceTile from "../../components/ServiceTile";
 
 
 const LandingPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <Container className="p-3">
     <Jumbotron>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Container,
   Row,
@@ -87,6 +87,10 @@ const ServicePage: React.FC<ServiceProps> = ( props: ServiceProps) =>  {
 
   }
 
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <Container className="p-3">

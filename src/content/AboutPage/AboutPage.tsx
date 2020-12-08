@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import {
   Container,
@@ -95,6 +95,10 @@ const AboutPage: React.FC<AboutProps> = ( props: AboutProps) =>  {
         </Row>
       </Container>);
   }
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <Container className="p-3">
